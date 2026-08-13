@@ -290,7 +290,7 @@ export const projects = [
       'An end-to-end restaurant sales analytics project analyzing 1,000,000 transactional orders across 6 branches in Egypt.',
 
     approach:
-      'The project starts with raw restaurant transaction data and uses Databricks and PySpark for data ingestion, schema handling, data quality validation, and feature engineering. Spark SQL is then used to perform business-focused analysis, while the processed data is persisted using Delta Lake. The resulting insights are communicated through an interactive Power BI dashboard.',
+      'The project starts with raw restaurant transaction data and uses Databricks and PySpark for data ingestion, schema handling, data quality validation, and feature engineering. Spark SQL is then used to perform business-focused analysis. The resulting insights are communicated through an interactive Power BI dashboard.',
 
     results:
       'Analyzed 1,000,000 orders across 6 branches, identified Cairo as the highest-performing branch by order volume, and found Grills to be the top-performing category by sales and order volume. The dataset contains 198,667 unique customers, an average customer rating of 3.70/5, and approximately 260.98M in total revenue.',
