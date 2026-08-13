@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0B0F14;
+  --bg-elevated: #0F141B;
+  --surface: #131922;
+  --surface-hover: #171E28;
+  --border: #232B36;
+  --border-soft: #1A222C;
+  --text-primary: #EAEFF4;
+  --text-secondary: #9AA6B6;
+  --text-tertiary: #5C6774;
+  --accent: #F2B84B;
+  --accent-soft: rgba(242, 184, 75, 0.12);
+  --stream: #4FD1C5;
+  --stream-soft: rgba(79, 209, 197, 0.12);
+}
+
+html.light {
+  --bg: #F6F5F1;
+  --bg-elevated: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-hover: #F0EEE8;
+  --border: #E3E0D8;
+  --border-soft: #EAE7DF;
+  --text-primary: #171B21;
+  --text-secondary: #4B5563;
+  --text-tertiary: #8A93A0;
+  --accent: #B9791F;
+  --accent-soft: rgba(185, 121, 31, 0.1);
+  --stream: #1E948A;
+  --stream-soft: rgba(30, 148, 138, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.container-px {
+  padding-left: clamp(1.25rem, 5vw, 6rem);
+  padding-right: clamp(1.25rem, 5vw, 6rem);
+}
+
+.font-display {
+  letter-spacing: -0.01em;
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, var(--text-primary) 40%, var(--accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.mono-tag {
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.02em;
+}

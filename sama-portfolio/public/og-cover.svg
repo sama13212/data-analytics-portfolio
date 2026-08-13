@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0B0F14"/>
+  <g stroke="#232B36" stroke-width="1">
+    <line x1="120" y1="140" x2="360" y2="90"/>
+    <line x1="360" y1="90" x2="620" y2="180"/>
+    <line x1="620" y1="180" x2="900" y2="120"/>
+    <line x1="120" y1="140" x2="300" y2="320"/>
+    <line x1="300" y1="320" x2="620" y2="180"/>
+    <line x1="620" y1="180" x2="800" y2="400"/>
+    <line x1="800" y1="400" x2="1040" y2="300"/>
+  </g>
+  <circle cx="120" cy="140" r="6" fill="#4FD1C5"/>
+  <circle cx="360" cy="90" r="5" fill="#F2B84B"/>
+  <circle cx="620" cy="180" r="7" fill="#4FD1C5"/>
+  <circle cx="900" cy="120" r="5" fill="#F2B84B"/>
+  <circle cx="300" cy="320" r="5" fill="#4FD1C5"/>
+  <circle cx="800" cy="400" r="6" fill="#F2B84B"/>
+  <circle cx="1040" cy="300" r="5" fill="#4FD1C5"/>
+  <text x="120" y="500" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#EAEFF4">Sama Ahmed</text>
+  <text x="120" y="548" font-family="Arial, sans-serif" font-size="26" fill="#8B98A9">Data Analyst | Data Science &amp; AI Student</text>
+</svg>
