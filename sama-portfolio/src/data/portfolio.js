@@ -154,7 +154,11 @@ export const projects = [
     results:
       '5,000 total calls · 8 agents · 7.90 avg handling time · 3.40 avg satisfaction · 3,646 resolved vs. 1,354 unresolved · 4,054 answered vs. 946 unanswered',
     highlight: '5,000 calls analyzed',
-    images: [`${import.meta.env.BASE_URL}/projects/call-center-home.png', ${import.meta.env.BASE_URL}'/projects/call-center-details.png', ${import.meta.env.BASE_URL}'/projects/call-center-time-analysis.png`],
+    images: [
+      `${import.meta.env.BASE_URL}/projects/call-center-home.png`,
+      `${import.meta.env.BASE_URL}/projects/call-center-details.png`,
+      `${import.meta.env.BASE_URL}/projects/call-center-time-analysis.png`,
+    ],
     featured: false,
     github: "https://github.com/sama13212/Call-Center-Excel-Dashboard.git", // PLACEHOLDER_GITHUB_URL
   },
@@ -179,7 +183,11 @@ export const projects = [
       'Ran a Pearson correlation between every numeric feature and attrition, then drilled into the strongest associations — burnout and engagement — by comparing attrition rates across burnout and engagement levels, and packaged the findings as a slide-style report.',
     results:
       '17.9% overall attrition rate · strongest correlations: burnout_score +0.31, engagement_score −0.30, manager_support_score −0.24 · attrition rises from ~5% (low burnout) to ~45% (high burnout) · attrition ranges from 58.9% (low engagement) to 10.4% (high engagement)',
-    images: [`${import.meta.env.BASE_URL}/projects/hr-attrition-overview.png', ${import.meta.env.BASE_URL}'/projects/hr-attrition-correlation.png', ${import.meta.env.BASE_URL}'/projects/hr-attrition-wellbeing.png`],
+    images: [
+      `${import.meta.env.BASE_URL}/projects/hr-attrition-overview.png`,
+      `${import.meta.env.BASE_URL}/projects/hr-attrition-correlation.png`,
+      `${import.meta.env.BASE_URL}/projects/hr-attrition-wellbeing.png`,
+    ],
     featured: false,
     github: "https://github.com/sama13212/HR-Employee-Attrition-Analysis.git", // PLACEHOLDER_GITHUB_URL
   },
@@ -287,7 +295,10 @@ export const projects = [
     results:
       'Analyzed 1,000,000 orders across 6 branches, identified Cairo as the highest-performing branch by order volume, and found Grills to be the top-performing category by sales and order volume. The dataset contains 198,667 unique customers, an average customer rating of 3.70/5, and approximately 260.98M in total revenue.',
 
-    images: [`${import.meta.env.BASE_URL}projects/resturant_dashboard.png',${import.meta.env.BASE_URL}'projects/restturant_cleaning .png`],
+    images: [
+        `${import.meta.env.BASE_URL}/projects/resturant_dashboard.png`,
+        `${import.meta.env.BASE_URL}/projects/restturant_cleaning.png`,
+      ],
 
     featured: false,
 
