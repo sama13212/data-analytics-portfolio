@@ -100,7 +100,7 @@ export const projects = [
       'Cleaned and modeled the transaction data with Power Query and Power Pivot using a Star Schema, then layered dynamic DAX measures for core KPIs before building the interactive dashboard with category, time, and location filters.',
     results: 'Total Sales $698,812 · Total Orders 149,116 · Total Quantity 214,470 · Average Price $4.69',
     highlight: '149,116 orders modeled',
-    images: ['/projects/coffee-shop-dashboard.png'],
+    images: [`${import.meta.env.BASE_URL}/projects/coffee-shop-dashboard.png`],
     featured: false,
     github: "https://github.com/sama13212/coffee-shop-sales-dashboard.git", // PLACEHOLDER_GITHUB_URL
   },
@@ -127,7 +127,7 @@ export const projects = [
       'Built the pipeline in stages — Kafka ingestion, Spark Structured Streaming transformations, Parquet storage, then Spark SQL analysis exported to CSV for a final dashboard layer.',
     results:
       '180,141 cleaned records · £3,561,184.18 total sales · £19.77 average transaction value · 2,454 unique customers · top country: United Kingdom · highest month: December · top product: "REGENCY CAKESTAND 3 TIER"',
-    images: ['/projects/online-retail-dashboard.png'],
+    images: [`${import.meta.env.BASE_URL}/projects/online-retail-dashboard.png`],
     featured: true,
     github: 'https://github.com/sama13212/Online-Retail-Big-Data',
   },
@@ -154,7 +154,7 @@ export const projects = [
     results:
       '5,000 total calls · 8 agents · 7.90 avg handling time · 3.40 avg satisfaction · 3,646 resolved vs. 1,354 unresolved · 4,054 answered vs. 946 unanswered',
     highlight: '5,000 calls analyzed',
-    images: ['/projects/call-center-home.png', '/projects/call-center-details.png', '/projects/call-center-time-analysis.png'],
+    images: [`${import.meta.env.BASE_URL}/projects/call-center-home.png', '/projects/call-center-details.png', '/projects/call-center-time-analysis.png`],
     featured: false,
     github: "https://github.com/sama13212/Call-Center-Excel-Dashboard.git", // PLACEHOLDER_GITHUB_URL
   },
@@ -179,7 +179,7 @@ export const projects = [
       'Ran a Pearson correlation between every numeric feature and attrition, then drilled into the strongest associations — burnout and engagement — by comparing attrition rates across burnout and engagement levels, and packaged the findings as a slide-style report.',
     results:
       '17.9% overall attrition rate · strongest correlations: burnout_score +0.31, engagement_score −0.30, manager_support_score −0.24 · attrition rises from ~5% (low burnout) to ~45% (high burnout) · attrition ranges from 58.9% (low engagement) to 10.4% (high engagement)',
-    images: ['/projects/hr-attrition-overview.png', '/projects/hr-attrition-correlation.png', '/projects/hr-attrition-wellbeing.png'],
+    images: [`${import.meta.env.BASE_URL}/projects/hr-attrition-overview.png', '/projects/hr-attrition-correlation.png', '/projects/hr-attrition-wellbeing.png`],
     featured: false,
     github: "https://github.com/sama13212/HR-Employee-Attrition-Analysis.git", // PLACEHOLDER_GITHUB_URL
   },
@@ -203,7 +203,7 @@ export const projects = [
       'Modeled the employee data with pivot tables, built department-level breakdowns for salary, performance, and overtime, and connected them to slicers for department, gender, job role, and year.',
     results: '109 employees · avg salary $9,647.7 · avg satisfaction 3.1 · avg performance 3.76',
     highlight: '109 employees analyzed',
-    images: ['/projects/employee-performance-dashboard.png'],
+    images: [`${import.meta.env.BASE_URL}projects/employee-performance-dashboard.png`],
     featured: false,
     github: null, // PLACEHOLDER_GITHUB_URL
   },
@@ -228,7 +228,7 @@ export const projects = [
     results:
       'Total Sales $5,865,293.05 · Total Profit $970,019.41 · 34,500 orders · 7,903 customers · Avg Order Value $170.01 · 1,903 returned orders',
     highlight: '$5.87M in tracked sales',
-    images: ['/projects/ecommerce-sales-dashboard.png'],
+    images: [`${import.meta.env.BASE_URL}projects/ecommerce-sales-dashboard.png`],
     featured: false,
     github: "https://github.com/sama13212/Sales-Dashboard-Excel.git", // PLACEHOLDER_GITHUB_URL
   },
@@ -303,7 +303,7 @@ export const projects = [
     results:
       'Analyzed 1,000,000 orders across 6 branches, identified Cairo as the highest-performing branch by order volume, and found Grills to be the top-performing category by sales and order volume. The dataset contains 198,667 unique customers, an average customer rating of 3.70/5, and approximately 260.98M in total revenue.',
 
-    images: ['projects/resturant_dashboard.png','projects/restturant_cleaning .png'],
+    images: [`${import.meta.env.BASE_URL}projects/resturant_dashboard.png','projects/restturant_cleaning .png`],
 
     featured: false,
 
