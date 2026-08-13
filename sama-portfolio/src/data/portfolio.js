@@ -297,7 +297,7 @@ export const projects = [
 
     images: [
         `${import.meta.env.BASE_URL}/projects/resturant_dashboard.png`,
-        `${import.meta.env.BASE_URL}/projects/restturant_cleaning.png`,
+        `${import.meta.env.BASE_URL}/projects/resturant_dashboard.png`,
       ],
 
     featured: false,
